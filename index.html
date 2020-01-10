@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]>
+	<!--><html class="no-js" lang="en"><!--<![endif]-->
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<meta name="robots" content="index, follow">
+		<meta name="theme-color" content="#f4f5f6">
+		<meta name="format-detection" content="telephone=no">
+		<meta name="apple-mobile-web-app-status-bar-style" content="#f4f5f6">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+		<meta name="author" content="Shubham Agrawal">
+		<meta name="description" content="SAMVID is the official annual Techno Cultural college festival of Shri Shankaracharya Technical Campus, Bhilai">
+		<meta name="keywords" content="samvid, 2020, 2k20, ssgi, sstc, ssec, ssitm, sscet, shankaracharya, official techno-cultural fest,
+		fest, festival, science, engineering, techno-cultural, bhilai, durg, Shri Shankaracharya Technical Campus, Bhilai,
+		Samvid is the official techno-cultural fest of Shri Shankaracharya Technical Campus, Bhilai, wdct, web, design, creative, team,
+		coding, development, web development, research and development, e cell, entrepreneurship, robotics, robo cell,
+		robowars, hackathon, events, core cell, management, official, best fest of bhilai, samvid nites, largest, central india, largest fest in central India, gaming, electronics, computer science events, mechatronics, proshow, pro-show, rampwalk, fashion, dance" />
+
+		<!-- og-tags -->
+		<meta property="og:url" content="http://samvid.org.in/">
+		<meta property="og:type" content="website">
+		<meta property="og:title" content="SAMVID 2020 - Machaatey Raho">
+		<meta property="og:image" content="images/samvid.png">
+		<meta property="og:description" content="Welcome to the Seventh Edition of SAMVID - Techno-Cultural college fest of Shri Shankaracharya Technical Campus, Bhilai">
+
+		<!--twitter card data-->
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:site" content="http://samvid.org.in/">
+		<meta name="twitter:creator" content="Shubham Agrawal">
+		<meta name="twitter:title" content="SAMVID 2020 - Machaatey Raho">
+		<meta name="twitter:image" content="images/samvid.png">
+		<meta name="twitter:description" content="Welcome to the Eighth Edition of SAMVID - Techno-Cultural college fest of Shri Shankaracharya Technical Campus, Bhilai">
+
+		<link id="icon" rel="icon" href="image/favicon.png">
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-133827990-1"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+
+			gtag('config', 'UA-133827990-1');
+		</script>
+
+	<!-- Basic Page Needs
+		================================================== -->
+		<meta charset="utf-8">
+		<!--HEAD-->
+		<title>Samvid'20</title>
+		<meta name="description" content="Technical Symposium">
+		<meta name="author" content="Shubham Agrawal">
+
+
+	<!-- Mobile Specific Metas
+0		================================================== -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+
+	<!-- CSS
+		================================================== -->
+		<link rel="stylesheet" href="css/layout.css"/>
+		<link rel="stylesheet" href="css/font-awesome.css" />
+		<link rel="stylesheet" href="css/jquery.fancybox.css" />
+		<link rel="stylesheet" href="css/flat_filled_styles.css"><!--SVG Animation Styles-->
+		<link rel="stylesheet" href="css/retina.css"/>
+
+
+	</head>
+	<body class="royal_loader">	
+		<div id="home">	
+			<div>
+				<canvas id="scene"></canvas>
+				<h1 id="copy" style="display : none;">SAMVID'20</h1>
+			</div>
+
+			<div class="tagline">
+				<div class="big-text">
+					<ul class="flippy">
+						<li><span style="color: #EE5454;font-family: 'badaboom'; border: none;">COME | COMPETE | CONQUER</span></li>
+						<li><span style="color: #FFC510;font-family: 'badaboom';border: none;">COME | COMPETE | CONQUER</span></li>
+						<li><span style="color: #4C94F6;font-family: 'badaboom';border: none;">COME | COMPETE | CONQUER</span></li>
+					</ul>
+				</div>
+			</div>
+			<div class="countdownbody">
+				<div id="countdown">
+					<div id='tiles' style="font-family: 'badaboom';"></div>
+					<div class="labels">
+						<li>Days</li>
+						<li>Hours</li>
+						<li>Mins</li>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+	<!-- JAVASCRIPT
+		================================================== -->
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/modernizr.custom.js"></script>	 
+		<script type="text/javascript" src="js/royal_preloader.min.js"></script>
+		<script type="text/javascript">
+			(function($) { "use strict";
+				Royal_Preloader.config({
+                mode:           'text', // 'number', "text" or "logo"
+                text:           "SAMVID'20",
+                timeout:        .7,
+                showInfo:       true,
+                opacity:        1,
+                background:     ['#000000']
+            });
+			})(jQuery);
+		</script>
+		<script type="text/javascript" src="js/classie.js"></script>
+		<script type="text/javascript" src="js/cbpAnimatedHeader.min.js"></script>
+		<script type="text/javascript" src="js/retina-1.1.0.min.js"></script>
+		<script type="text/javascript" src="js/jquery.easing.js"></script> 
+		<script type="text/javascript" src="js/flippy.js"></script>
+		<script type="text/javascript" src="js/jquery.fitvids.js"></script>
+		<script type="text/javascript" src="js/tiltSlider.js"></script>
+		<script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
+		<script type="text/javascript" src="js/jquery.localscroll-1.2.7-min.js"></script>
+		<script type="text/javascript" src="js/jquery.scrollTo-1.4.2-min.js"></script>
+		<script type="text/javascript" src="js/jquery.fancybox.js"></script>
+		<script type="text/javascript" src="js/svg_inject_flat_icons_filled.js"></script><!--Inject SVG and Toggle CSS Styles-->
+		<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+		<script type="text/javascript" src="js/plugins.js"></script>
+		<script type="text/javascript" src="js/template.js"></script>
+		<script type="text/javascript">
+			var canvas = document.querySelector("#scene"),
+			ctx = canvas.getContext("2d"),
+			particles = [],
+			amount = 0,
+			mouse = {x:0,y:0},
+			radius = .5;
+
+			var copy = document.querySelector("#copy");
+
+			var ww = canvas.width = window.innerWidth;
+			var wh = canvas.height = window.innerHeight;
+
+			function Particle(x,y){
+				this.x =  Math.random()*ww;
+				this.y =  Math.random()*wh;
+				this.dest = {
+					x : x,
+					y: y
+				};
+
+				if(ww>768){
+					var colors = ["#FFC510"];
+					this.r =  Math.random()*3 + 2;
+				}
+				else{
+					var colors = ["#FFC510"];
+					this.r =  Math.random()*1 + 2;
+				}
+
+
+				this.vx = (Math.random()-0.5)*20;
+				this.vy = (Math.random()-0.5)*20;
+				this.accX = 0;
+				this.accY = 0;
+				this.friction = Math.random()*0.05 + 0.94;
+
+				this.color = colors[Math.floor(Math.random()*6)];
+			}
+
+			Particle.prototype.render = function() {
+
+
+				this.accX = (this.dest.x - this.x)/1000;
+				this.accY = (this.dest.y - this.y)/1000;
+				this.vx += this.accX;
+				this.vy += this.accY;
+				this.vx *= this.friction;
+				this.vy *= this.friction;
+
+				this.x += this.vx;
+				this.y +=  this.vy;
+
+				ctx.fillStyle = this.color;
+				ctx.beginPath();
+				ctx.arc(this.x, this.y, this.r, Math.PI * 2, false);
+				ctx.fill();
+
+				var a = this.x - mouse.x;
+				var b = this.y - mouse.y;
+
+				var distance = Math.sqrt( a*a + b*b );
+				if(distance<(radius*70)){
+					this.accX = (this.x - mouse.x)/100;
+					this.accY = (this.y - mouse.y)/100;
+					this.vx += this.accX;
+					this.vy += this.accY;
+				}
+
+			}
+
+			function onMouseMove(e){
+				mouse.x = e.clientX;
+				mouse.y = e.clientY;
+			}
+
+			function onTouchMove(e){
+				if(e.touches.length > 0 ){
+					mouse.x = e.touches[0].clientX;
+					mouse.y = e.touches[0].clientY;
+				}
+			}
+
+			function onTouchEnd(e){
+				mouse.x = -9999;
+				mouse.y = -9999;
+			}
+
+			function initScene(){
+				ww = canvas.width = window.innerWidth;
+				wh = canvas.height = window.innerHeight;
+
+				ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+				ctx.font = "bold "+(ww/6.5)+"px 'Luckiest Guy', cursive";
+				ctx.textAlign = "center";
+				ctx.fillText(copy.innerText, ww/2, wh/2);
+
+				var data  = ctx.getImageData(0, 0, ww, wh).data;
+				ctx.clearRect(0, 0, canvas.width, canvas.height);
+				ctx.globalCompositeOperation = "screen";
+
+				particles = [];
+				for(var i=0;i<ww;i+=Math.round(ww/150)){
+					for(var j=0;j<wh;j+=Math.round(ww/150)){
+						if(data[ ((i + j*ww)*4) + 3] > 150){
+							particles.push(new Particle(i,j));
+						}
+					}
+				}
+				amount = particles.length;
+
+			}
+
+			function onMouseClick(){
+				radius++;
+				if(radius ===5){
+					radius = 0;
+				}
+			}
+
+			function render(a) {
+				requestAnimationFrame(render);
+				ctx.clearRect(0, 0, canvas.width, canvas.height);
+				for (var i = 0; i < amount; i++) {
+					particles[i].render();
+				}
+			};
+
+			copy.addEventListener("keyup", initScene);
+			window.addEventListener("resize", initScene);
+			window.addEventListener("mousemove", onMouseMove);
+			window.addEventListener("touchmove", onTouchMove);
+			window.addEventListener("click", onMouseClick);
+			window.addEventListener("touchend", onTouchEnd);
+			initScene();
+			requestAnimationFrame(render);
+
+
+		</script> 
+		<script>
+			var target_date =new Date("2020-02-28"); // set the countdown date
+var days, hours, minutes, seconds; // variables for time units
+
+var countdown = document.getElementById("tiles"); // get tag element
+
+getCountdown();
+
+setInterval(function () { getCountdown(); }, 1000);
+
+function getCountdown(){
+
+	// find the amount of "seconds" between now and target
+	var current_date = new Date().getTime();
+	var seconds_left = (target_date - current_date) / 1000;
+
+	days = pad( parseInt(seconds_left / 86400) );
+	seconds_left = seconds_left % 86400;
+
+	hours = pad( parseInt(seconds_left / 3600) );
+	seconds_left = seconds_left % 3600;
+
+	minutes = pad( parseInt(seconds_left / 60) );
+	seconds = pad( parseInt( seconds_left % 60 ) );
+
+	// format countdown string + set tag value
+	countdown.innerHTML = "<span>" + days + "</span><span>" + hours + "</span><span>" + minutes + "</span>"; 
+}
+
+function pad(n) {
+	return (n < 10 ? '0' : '') + n;
+}
+
+
+</script> 
+<!-- End Document
+	================================================== -->
+</body>
+</html>
+<!-- http://www.landmarkmlp.com/js-plugin/owl.carousel/demos/images.html -->
