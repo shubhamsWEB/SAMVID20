@@ -1,1 +1,10 @@
 /****** PLACE YOUR CUSTOM STYLES HERE ******/
+@font-face {
+	font-family: 'badaboom';
+	src: url(../css/font/BADABB__.TTF);
+	font-style: normal;
+	font-weight: bold;
+}
+h2 {
+	font-family: badaboom;
+}
